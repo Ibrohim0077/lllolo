@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1{
+     background-color: rgb(1, 78, 86);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 70px;
+}
+.header__box{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.header__box a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.header__box button{
+    width: 153px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.header__box button:hover{
+    width: 153px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+
+
+
+
+.main{
+    padding-left: 165px;
+    padding-top: 120px;
+    display: flex;
+    gap: 300px;
+    background-color:rgb(1, 78, 86);
+}
+.main h2{
+   color: white; 
+   font-size: 64px; 
+}
+.main p{
+    width: 600px;
+    height: 156px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+
+.section{
+    background-color: rgb(0, 69, 77);
+    height: 600px;
+}
+.section h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 50px;
+}
+.section__box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.section__box h3{
+    color: rgb(121, 200, 199);
+}
+.section__box .images{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+}
+.section__box .card{
+    text-align: center;
+    width: 300px;
+    height: 205px;
+    color: white;
+    background-color: rgb(0, 57, 63);
+    margin: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    height: 375px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgb(0, 57, 63);
+    color: white;
+}
+.container h2{
+    font-size: 48px;
+}
+.container .logo{
+   
+    gap: 80px;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 53px;
+}
+.container .logo .logolar{
+    width: 165px;
+    height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+.container2{
+    height: 200px;
+    display: flex;
+    background-color: rgb(246, 126, 126);
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+}
+.container2 h2{
+    font-size: 48px;
+}
+.container2 .btn{
+    width: 153px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 24px;
+}
+.container2 .btn:hover{
+    width: 153px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.footer{
+    height: 106px;
+    background-color: rgb(0 , 37, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.footer__box{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+@media (max-width:768px) {
+    .header1{
+        background-color: rgb(1, 78, 86);
+   }
+   .header{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       padding-left: 39px;
+       padding-right: 39px;
+       height: 70px;
+   }
+   .header__box{
+       display: flex;
+       gap: 45px;
+       align-items: center;
+       text-decoration: none;
+       color: white;
+   }
+   .header__box a{
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: white;
+   }
+   .header__box button{
+       width: 153px;
+       height: 40px;
+       border-radius: 24px;
+       background-color: transparent;
+       border: 1px solid white;
+       color: white;
+   }
+   .header__box button:hover{
+       width: 153px;
+       height: 40px;
+       border-radius: 24px;
+       background-color: white;
+       border: 1px solid white;
+       color: black;
+   }
+
+
+.main{
+    padding-left: 39px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    background-color:rgb(1, 78, 86);
+}
+.main h2{
+   color: white; 
+   font-size: 64px; 
+}
+.main p{
+    width: 457px;
+    height: 140px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+.section{
+    background-color: rgb(0, 69, 77);
+    height: 800px;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.section h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 50px;
+}
+
+.section__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 50px;
+}
+.section__box h3{
+    color: rgb(121, 200, 199);
+}
+.section__box .images{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+}
+.section__box img{
+   width: 116px;
+   height: 116px;
+}
+.section__box .card{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 57, 63);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+
+
+
+
+.container{
+    height: 375px;
+    text-align: center;
+    padding-top: 60px;
+    background-color: rgb(0, 57, 63);
+    color: white;
+}
+.container h2{
+    font-size: 43px;
+}
+.container .logo{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 53px;
+}
+.container .logo .logolar{
+    width: 103px;
+    height: 17px;
+}
+
+
+
+
+
+
+
+.container2{
+    height: 200px;
+    display: flex;
+    background-color: rgb(246, 126, 126);
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.container2 h2{
+    font-size: 40px;
+}
+.container2 .btn{
+    width: 143px;
+    height: 43px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.container2 .btn:hover{
+    width: 143px;
+    height: 43px;
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+
+
+
+
+.footer{
+    height: 106px;
+    background-color: rgb(0 , 37, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer__box{
+    display: flex;
+    gap: 20px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .header1{
+        background-color: rgb(1, 78, 86);
+        .container{
+            height: 375px;
+            text-align: center;
+            padding-top: 70px;
+            background-color: rgb(0, 57, 63);
+            color: white;
+            .main p{
+                width: 600px;
+                height: 156px;
+                color: white;
+                font-size: 18px;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            
+        }
+        .container h2{
+            font-size: 40px;
+        }
+        .container .logo{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 50px;
+        }
+        .container .logo .logolar{
+            width: 70px;
+            height: 14px;
+        }
+        
+        
+   }
+   .header{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-left: 24px;
+       padding-right: 24px;
+       height: 60px;
+   }
+   .header__box{
+       display: flex;
+       gap: 15px;
+       align-items: center;
+       text-decoration: none;
+       color: white;
+   }
+   .header__box a{
+       display: none;
+       align-items: center;
+       text-decoration: none;
+       color: white;
+
+
+}
+   .header__box button{
+       width: 153px;
+       height: 40px;
+       border-radius: 24px;
+       background-color: transparent;
+       border: 1px solid white;
+       color: white;
+   }
+   .header__box button:hover{
+       width: 153px;
+       height: 40px;
+       border-radius: 24px;
+       background-color: white;
+       border: 1px solid white;
+       color: black;
+   }
+   
+   
+   
+   
+   
+   .main{
+       padding-left: 24px;
+       padding-top: 24px;
+       display: flex;
+       gap: 16px;
+       background-color:rgb(1, 78, 86);
+   }
+   .main h2{
+      color: white; 
+      font-size: 60px; 
+   }
+   .main p{
+       width: 300px;
+       height: 146px;
+       color: white;
+       font-size: 14px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .section{
+       background-color: rgb(0, 69, 77);
+       height: 1000px;
+   }
+   .section h2{
+       text-align: center;
+       color: white;
+       font-size: 40px;
+       padding: 50px;
+   }
+   .section__box{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding-left: 24px;
+       padding-right: 24px;
+   }
+   .section__box h3{
+       color: rgb(121, 200, 199);
+   }
+   .section__box .images{
+       width: 50px;
+       height: 50px;
+       position: relative;
+       top: 20px;
+   }
+
+   .section__box .card{
+       width: 200px;
+       height: 205px;
+       color: white;
+       background-color: rgb(0, 57, 63);
+       margin: 0px;
+   }
+   
+   
+   
+   
+   
+   
+   .container{
+       height: 375px;
+       text-align: center;
+       padding-top: 70px;
+       background-color: rgb(0, 57, 63);
+       color: white;
+   }
+   .container h2{
+       font-size: 40px;
+   }
+   .container .logo{
+       gap: 30px;
+       justify-content: space-between;
+       padding-left: 24px;
+       padding-right: 24px;
+       padding-top: 50px;
+   }
+   .container .logo .logolar{
+       width: 70px;
+       height: 14px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .container2{
+       height: 200px;
+       display: flex;
+       background-color: rgb(246, 126, 126);
+       align-items: center;
+       justify-content: center;
+       gap: 100px;
+   }
+   .container2 h2{
+       font-size: 35px;
+   }
+   .container2 .btn{
+       width: 130px;
+       height: 40px;
+       background-color: transparent;
+       border-radius: 20px;
+   }
+   .container2 .btn:hover{
+       width: 153px;
+       height: 48px;
+       background-color: white;
+       color: black;
+       border-radius: 24px;
+       border: 1px solid black;
+   }
+   
+   
+   
+   
+
+   
+   .footer{
+       height: 80px;
+       background-color: rgb(0 , 37, 41);
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-left: 24px;
+       padding-right: 24px;
+   }
+   .footer__box{
+       display: flex;
+       gap: 18px;
+   }
+}
